@@ -26,7 +26,8 @@ This is just a sample of what you can do.  The index.rst file is the table of co
     :maxdepth: 1
 
     test.rst
-    
+    test2.rst
+
 ::
 
 

@@ -1,44 +1,42 @@
-=====================
+===============
 Question Bank 1
-=====================
+===============
 
-.. mchoice:: questionX1
+.. mchoice:: qx1
 
     What is printed when the code below is run?
-    ::
+
+    .. code-block:: python
+
         def add1(n): 
             n=n+1
             if n == 7:
                 return 'bingo'
         print( add1(5) )    
 
-    ..
+    .. 
 
     - None
-
-        + X
+    
+      + There is no return value if n != 7
     
     - 5
 
-        - X
-    
-    - 6
-    
-        - X
-    
-    - 7
-    
-        - X
-    
-    - bingo
-    
-        - X
-    
-    - There is an error
-    
-        - X
-    
-    - Nothing is printed
-    
-        - X
+      - There is no return value if n != 7
+
+
+.. mchoice:: qx2
+    :answer_a: None 
+    :answer_b: 6
+    :correct: a
+
+    What is printed when the code below is run?
+
+    .. code-block:: python
+
+        def add1(n): 
+            n=n+1
+            if n == 7:
+                return 'bingo'
+        print( add1(5) )    
 
